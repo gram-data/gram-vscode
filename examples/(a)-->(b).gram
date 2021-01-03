@@ -1,0 +1,9 @@
+// Aye to Bee
+(a:Person {title:"The Movie", stars:[1,2,3]})-->(b:Movie)
+(a:Person:President)-[e:Thing:Way {k:2.0}]->(b {name:"Me",v2:`two`})
+
+// node list
+(a),(b),(c)
+
+
+[p:Path:Thing {k:'v'} (a:Bar)-->(b:Foo)]
